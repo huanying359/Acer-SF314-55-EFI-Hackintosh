@@ -17,13 +17,13 @@
 	<key>CFBundlePackageType</key>
 	<string>KEXT</string>
 	<key>CFBundleShortVersionString</key>
-	<string>2.2.0</string>
+	<string>2.3.0</string>
 	<key>CFBundleSupportedPlatforms</key>
 	<array>
 		<string>MacOSX</string>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>2.2.0</string>
+	<string>2.3.0</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -61,9 +61,30 @@
 				<key>WiFi_1</key>
 				<dict>
 					<key>password</key>
+					<string>zxyssdt112233</string>
+					<key>ssid</key>
+					<string>ssdt</string>
+				</dict>
+				<key>WiFi_2</key>
+				<dict>
+					<key>password</key>
+					<string>zxyssdt112233</string>
+					<key>ssid</key>
+					<string>ssdt_5G</string>
+				</dict>
+				<key>WiFi_3</key>
+				<dict>
+					<key>password</key>
+					<string></string>
+					<key>ssid</key>
+					<string>Redmi</string>
+				</dict>
+				<key>WiFi_4</key>
+				<dict>
+					<key>password</key>
 					<string>123456hchc</string>
 					<key>ssid</key>
-					<string>TP-LINK_5G_DC65</string>
+					<string>TP-LINK_A420</string>
 				</dict>
 			</dict>
 		</dict>

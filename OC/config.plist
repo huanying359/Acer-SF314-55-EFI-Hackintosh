@@ -96,11 +96,11 @@
                 </dict>
                 <dict>
                     <key>Comment</key>
-                    <string>SSDT-TPXX.aml</string>
+                    <string></string>
                     <key>Enabled</key>
                     <true/>
                     <key>Path</key>
-                    <string>SSDT-TPXX.aml</string>
+                    <string>SSDT-XOSI.aml</string>
                 </dict>
             </array>
             <key>Delete</key>
@@ -187,6 +187,36 @@
                     <data></data>
                     <key>Replace</key>
                     <data>WENSUw==</data>
+                    <key>ReplaceMask</key>
+                    <data></data>
+                    <key>Skip</key>
+                    <integer>0</integer>
+                    <key>TableLength</key>
+                    <integer>0</integer>
+                    <key>TableSignature</key>
+                    <data></data>
+                </dict>
+                <dict>
+                    <key>Base</key>
+                    <string></string>
+                    <key>BaseSkip</key>
+                    <integer>0</integer>
+                    <key>Comment</key>
+                    <string>change _OSI to XOSI, pair with SSDT-XOSI.aml</string>
+                    <key>Count</key>
+                    <integer>0</integer>
+                    <key>Enabled</key>
+                    <true/>
+                    <key>Find</key>
+                    <data>X09TSQ==</data>
+                    <key>Limit</key>
+                    <integer>0</integer>
+                    <key>Mask</key>
+                    <data></data>
+                    <key>OemTableId</key>
+                    <data></data>
+                    <key>Replace</key>
+                    <data>WE9TSQ==</data>
                     <key>ReplaceMask</key>
                     <data></data>
                     <key>Skip</key>
@@ -397,7 +427,7 @@
                     <key>BundlePath</key>
                     <string>AppleALC.kext</string>
                     <key>Comment</key>
-                    <string>V1.9.5 | AppleALC.kext</string>
+                    <string>V1.9.8 | AppleALC.kext</string>
                     <key>Enabled</key>
                     <true/>
                     <key>ExecutablePath</key>
